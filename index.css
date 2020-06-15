@@ -76,10 +76,18 @@ header h1 {
  	margin-bottom: 0;
 }
 
-.contato-select, .grupo-radio {
-	width: 50%;
-	display: inline-block;
-	vertical-align: top;
+@media (max-width: 500px){
+	.jumbotron p {
+		font-size: 17px;
+	}
+}
+
+.texto-caroulsel h3  {
+	text-shadow: 2px 2px 3px black;
+}
+
+.texto-caroulsel p {
+	text-shadow: 2px 2px 3px black;
 }
 
 .grupo-radio .radio:first-child {
