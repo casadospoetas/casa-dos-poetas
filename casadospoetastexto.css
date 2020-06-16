@@ -1,0 +1,81 @@
+#paineis-sobre {
+	margin-top: 20px;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar-brand {
+	margin-bottom: 1em;
+}
+
+.nav {
+	margin-top: .5em;
+	font-size: 120%;
+}
+
+
+li {
+	transition: 0.5s;
+}
+
+body, html {
+	height: 100%;
+}
+
+header {
+	background-image: url();
+	height: 10%;
+	background-size: cover;
+	background-position: top center;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.texto {
+ 	padding:  0 2em 0 2em;
+}
+
+.texto h1, h3 {
+	text-align: center;
+}
+
+#citacao {
+	text-align: right;
+	font-size: small;
+}
+
+#miolo {
+	font-size: medium;
+}
+
+
+
+footer {
+	background-color: #333333;
+	color: white;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+@media(min-width: 768px) {
+	#paineis-sobre {
+		margin-top: 0px
+	}
+	section .carousel-caption h3 {
+		font-size: 30px;
+	}
+
+	section .carousel-caption {
+		font-size: 22px;
+		border-top: 50px;
+	}
+}
+
+
+

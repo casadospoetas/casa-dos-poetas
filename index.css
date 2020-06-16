@@ -35,7 +35,7 @@ header h1 {
 	margin-bottom: 0;
 }
 
-.topcasafina-banner {
+.casadospoetas-banner {
 	color: white;
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 40px;
@@ -76,18 +76,8 @@ header h1 {
  	margin-bottom: 0;
 }
 
-@media (max-width: 500px){
-	.jumbotron p {
-		font-size: 17px;
-	}
-}
-
-.texto-caroulsel h3  {
-	text-shadow: 2px 2px 3px black;
-}
-
-.texto-caroulsel p {
-	text-shadow: 2px 2px 3px black;
+#obs  {
+	font-size: medium;
 }
 
 .grupo-radio .radio:first-child {
@@ -118,14 +108,14 @@ footer {
 }
 
 @media (min-width: 992px) {
-	.topcasafina-banner {
+	.casadospoetas-banner {
 		left: 0;
 		transform: translate( 0, -50%);
 		width: 50%;
 		font-size: 20px;
 	}
 
-	.topcasafina-bannerwrapper {
+	.casadospoetas-bannerwrapper {
 		position: relative;
 		height: 100%;
 	}
