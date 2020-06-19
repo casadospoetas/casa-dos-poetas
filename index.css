@@ -48,6 +48,7 @@ header h1 {
 	transition: 0.5s;
 }
 
+
 .img-sobrenos {
 	margin-bottom: 30px;
 }
@@ -96,6 +97,12 @@ footer {
 	#paineis-sobre {
 		margin-top: 0px
 	}
+
+	.casadospoetas-banner {
+
+		font-size: 22px;
+	}
+
 	section .carousel-caption h3 {
 		font-size: 30px;
 	}
@@ -121,8 +128,16 @@ footer {
 	}
 }
 
-@media (max-width: 500px){
+@media (max-width: 500px) {
 	header {
 	background-image: url(img-cel.jpg);
 	}
+}
+
+@media (max-width: 320px) {
+	.casadospoetas-banner {
+		font-size: 13px;
+		padding: 15px;
+	}
+
 }
