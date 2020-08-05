@@ -30,9 +30,7 @@ header h1 {
 }
 
 
-.borda-nome {
-	text-align: center;
-}
+
 
 /** menu-lateral **/
 .col-sm-2 {
@@ -42,8 +40,8 @@ header h1 {
     margin: 0 14px;
 }
 
-.texto h1, h3 {
-	text-align: center;
+.texto li {
+		padding: 1em 0;
 }
 
 #citacao {
