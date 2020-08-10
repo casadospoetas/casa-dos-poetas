@@ -20,6 +20,10 @@
 	margin: 0 0 1em 0;
 }
 
+#menu-atual {
+	color: blue;
+}
+
 .borda {
 	border: 1px solid black;
     border-radius: 20px;

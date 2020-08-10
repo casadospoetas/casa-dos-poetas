@@ -1,0 +1,128 @@
+#paineis-sobre {
+	margin-top: 20px;
+}
+
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar-brand {
+	margin-bottom: 1em;
+}
+
+.nav {
+	margin-top: .5em;
+	font-size: 120%;
+}
+
+
+li {
+	transition: 0.5s;
+}
+
+body, html {
+	height: 100%;
+}
+
+header h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#menu-atual {
+	color: blue;
+}
+
+.col-sm-10 div{
+	padding: 0;
+}
+
+
+/** menu-lateral **/
+.col-sm-2 {
+	box-sizing: border-box;
+    border: 2px groove;
+    border-radius: 10px;
+    margin: 0 14px;
+}
+
+.texto li {
+		padding: 1em 0;
+}
+
+.thumbnail   {
+	text-align: center;
+}
+
+img {
+	transition: 0.4s;
+}
+
+.thumbnail img:hover {
+		-webkit-transform: scale(1.25);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.25);
+  /* Firefox */
+  -ms-transform: scale(1.25);
+  /* IE 9 */
+  -o-transform: scale(1.25);
+  /* Opera */
+  transform: scale(1.25);
+  transition: 0.4s;
+}
+
+#citacao {
+	text-align: right;
+	font-size: small;
+}
+
+#miolo {
+	font-size: medium;
+}
+
+#poema {
+	text-align: center;
+}
+
+p.groove {border-style: groove;}
+
+
+
+footer {
+	background-color: #333333;
+	color: white;
+	padding: 20px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+@media(min-width: 768px) {
+	#paineis-sobre {
+		margin-top: 0px
+	}
+	section .carousel-caption h3 {
+		font-size: 30px;
+	}
+
+	section .carousel-caption {
+		font-size: 22px;
+		border-top: 50px;
+	}
+
+	.col-sm-2 {
+   		margin: 0;
+	}
+
+	/** coluna do texto **/
+	.col-sm-10 {
+		padding-right: 40px;
+	}
+
+	.thumbnail   {
+	margin-right: 4em;
+	margin-bottom: 4em;
+	}
+}
+
+
+

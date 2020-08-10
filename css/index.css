@@ -15,6 +15,10 @@
 	font-size: 120%;
 }
 
+#menu-atual {
+	color: red;
+}
+
 li {
 	transition: 0.5s;
 }
@@ -24,7 +28,7 @@ body, html {
 }
 
 header {
-	background-image: url(../img/img-inicial.jpg);
+	background-image: url(../img/familia/img-inicial.jpg);
 	height: 100%;
 	background-size: cover;
 	background-position: top center;
@@ -143,7 +147,7 @@ footer {
 
 @media (max-width: 500px) {
 	header {
-	background-image: url(../img/img-cel.jpg);
+	background-image: url(../img/familia/img-cel.jpg);
 	}
 }
 

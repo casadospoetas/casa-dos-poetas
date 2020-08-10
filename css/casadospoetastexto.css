@@ -29,6 +29,10 @@ header h1 {
 	margin-bottom: 0;
 }
 
+#menu-atual {
+	color: blue;
+}
+
 
 .borda-nome {
 	text-align: center;

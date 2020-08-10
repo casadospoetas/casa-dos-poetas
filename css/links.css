@@ -30,7 +30,9 @@ header h1 {
 }
 
 
-
+#menu-atual {
+	color: blue;
+}
 
 /** menu-lateral **/
 .col-sm-2 {
